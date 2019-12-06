@@ -1,0 +1,166 @@
+<html>
+<head>
+    <title> university website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<style>
+  
+
+  
+div_1{
+    display: flex;
+    height:120px;
+     width:350px;
+     
+}
+.div_2{
+    display: flex;
+}
+h2{
+  color: red;
+}
+
+
+body{
+  background: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 85%;
+  border: 3px solid black;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: black;
+}
+
+.searchTerm:focus{
+  color: black;
+}
+
+.searchButton {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black  ;
+  background: black;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h3{
+    color:#81837A;
+}
+.div_column_events{
+  margin-left: 3rem;
+}
+.div_left{
+  margin-left: 3rem;
+}
+.eventFrontDate{
+  color: red;
+}
+
+</style>
+<body>
+    <div class="div_1">
+    <img src="https://www.htu.edu.jo/themes/htu/logo.png">
+ <div style="text-align: right;">
+        Studant| Faculty & Staff<input type="text" name="search">
+    </div>
+    <h3> <a  href="">Profile  | Admission | Campus Life |Academic | Centers | Administration | Accreditstion | Upskilling Program | EDRAKK | Student </a>  </h3>
+    <video>
+           <source src="https://www.htu.edu.jo/themes/htu/media/banner.mp4" >
+    </video>
+    <div class="div_2">
+      <div class="div_left">
+        <h2>News</h2>
+        <img src="http://www.htu.edu.jo/sites/default/files/styles/large/public/2019-11/IMG_5060.JPG?itok=qf8N4Aof" alt="Nov 27 | 2019">
+        <img src="http://www.htu.edu.jo/sites/default/files/styles/large/public/2019-11/IMG_4877.JPG?itok=aBMIJVUR">
+      </div>
+      <div class="div_column_events">
+        <h2>Events</h2>
+        <div class="eventFrontDate">
+          <h4 class="date_1">
+          <h4>  15 <p>Jan|</p></h4> 
+          <div class="views-field views-field-title"><span class="field-content">
+<a href="/node/185" hreflang="en">HTU’s Accelerated Innovation &amp; Entrepreneurial Bootcamp II</a>
+</span></div>
+          <h4 >06 <p>  Oct|</p></h4>
+          <div class="views-field views-field-title"><span class="field-content">
+<a href="/node/185" hreflang="en">(CIEE) at Al-Hussein Technical University hosts HULT's Prize</a>
+</span></div>
+          <h4 >06 <p>Oct|</p></h4>
+          <div class="views-field views-field-title"><span class="field-content">
+<a href="/node/185" hreflang="en">HTU Strategic Roadmapping Workshop</a>
+</span></div>
+          <h4 >26 <p>Sep|</p></h4>
+          <div class="views-field views-field-title"><span class="field-content">
+<a href="/node/185" hreflang="en">President of Pearson Qualifications visits HTU</a>
+</span></div>
+</h4>
+        </div>
+      </div>
+    </div>
+<style type="text/css">{
+  border: 2px solid black;
+  padding: 25px;
+  background color: (#535353);
+  background-size: 300px 100px;
+}
+</style>    <div class="frontSchoolRow">
+                  <div class="frontSchools" style="width: 25%;">
+<div class="views-field views-field-field-main-photo"><div class="field-content">
+  <a href="/school-of-engineering">
+<img src="1.jpg" width="480" height="448" alt="School of Engineering Technology " typeof="foaf:Image" class="image-style-large articleImage">
+</a>
+</div></div><div><div class="frontSchoolTitle">
+<a href="/school-of-engineering" hreflang="en">School of Engineering Technology </a>
+</div></div>
+          </div>
+                  <div class="frontSchools" style="width: 25%;">
+<div class="views-field views-field-field-main-photo"><div class="field-content">
+<a href="/school-of-construction-and-built-environment">
+<img src="4.jpg" width="480" height="448" alt="School of Construction Technology and Built Environment" typeof="foaf:Image" class="image-style-large articleImage">
+</a>
+</div></div><div><div class="frontSchoolTitle">
+<a href="/school-of-construction-and-built-environment" hreflang="en">School of Construction Technology and Built Environment</a>
+</div></div>
+ </div>
+                  <div class="frontSchools" style="width: 25%;">
+<div class="views-field views-field-field-main-photo"><div class="field-content">
+  <a href="/school-of-computer-engineering">
+<img src="6.jpg" width="480" height="448" alt="School of Computing and Informatics" typeof="foaf:Image" class="image-style-large articleImage">
+</a>
+</div></div><div><div class="frontSchoolTitle">
+<a href="/school-of-computer-engineering" hreflang="en">School of Computing and Informatics</a>
+</div></div>
+          </div>
+                  <div class="frontSchools" style="width: 25%;">
+<div class="views-field views-field-field-main-photo">
+  <div class="field-content">
+  <a href="/school-of-social-and-basic-sciences">
+<img src="5.jpg" width="480" height="448" alt="School of social and basics sciences" typeof="foaf:Image" class="image-style-large articleImage">
+</a>
+</div><div><div class="frontSchoolTitle">
+<a href="/school-of-social-and-basic-sciences" hreflang="en">School of Social and Basics Sciences</a>
+</div></div>
