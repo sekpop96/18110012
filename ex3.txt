@@ -1,0 +1,67 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+#header{
+    flex-basis: 20%;
+    background-color: chartreuse;
+    text-align: center;
+    color: cornflowerblue;
+}
+#container{
+    flex-basis: 70%;
+    background-color: crimson;
+color: darkmagenta;
+
+}
+#middle{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#footer{
+    flex-basis: 100%;
+    background-color: gold;
+    text-align: center;
+    color: fuchsia;
+
+
+}
+.border{
+    border: brown;
+}
+=======================================================================
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            ex3
+        </title>
+        <link rel="stylesheet" href="Exlayout.css">
+    </head>
+    <body>
+        <div id="container">
+            <div id="Header">
+                <h1>
+                Header
+                </h1>
+            </div>
+            <div id="contents">
+                <div class="middle-paragraph">
+                    <p class=" border">
+                        this is the middle paragraph
+                    </p>
+                </div>
+
+            </div>
+        <div id="footer">
+            <h1>
+                Footer
+            </h1>
+        </div>
+        </div>
+    </body>
+</html>
+===============================================================
